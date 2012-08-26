@@ -1,0 +1,66 @@
+Primordial Soup
+===============
+
+A game in Common Lisp using Lispbuilder-SDL.
+Written in about 36 hours for [Ludum Dare 24][2], but not finished or submitted.
+
+What?
+-----
+
+Your organism lives in an environment with several competing organisms
+Each organism survives and grows if it is adapted to the environment
+Over time, the likelihood of a mutation increases
+You can select mutations to add to genome
+Try to choose mutations which will enable your organism to dominate the others
+You win if your organism is the last remaining
+
+Organism attributes:
+Energy storage - fuel for movement and reproduction
+- pro: longer lifespan - more reproduction
+- con: slower movement, competition with offspring
+Mobility
+- pro: move around
+- con: uses fuel needed for reproduction, shorter lifespan
+Reproduction rate
+- pro: rapid increase in numbers
+- con: uses fuel, competition among offspring, shorter lifespan
+Photosynthesis
+- pro: can generate energy
+- con: slower movement, slower reproduction
+Predation
+- pro: can consume other organisms for energy
+- cons: uses large amounts of fuel
+
+TODO
+----
+
+* Fixing the balance so that predation isn't so overpowering
+* Fixing the controls so that mutations are only allowed at intervals
+* Mobility
+* Photosynthesis
+* Win screen
+* Lose screen
+* Levels?
+
+Screenshot
+----------
+
+![Primordial Soup](https://dl.dropbox.com/u/1986317/Primordial%20Soup.png)
+
+Requirements
+------------
+
+Requires [Quicklisp][1].
+
+Definitely works in SBCL and Clozure CL on OSX.
+
+How to run
+----------
+
+Fire up your REPL, then:
+`(load "soup.lisp")`
+`(primordial-soup:main)`
+
+
+[1]: http://www.quicklisp.org/
+[2]: http://www.ludumdare.com/compo/

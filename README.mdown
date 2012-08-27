@@ -59,8 +59,8 @@ How to run
 ----------
 
 Fire up your REPL, then:
-`(load "soup.lisp")`
-`(primordial-soup:main)`
+    (load "soup.lisp")
+    (primordial-soup:main)
 
 
 [1]: http://www.quicklisp.org/

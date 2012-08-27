@@ -15,21 +15,22 @@ Try to choose mutations which will enable your organism to dominate the others
 You win if your organism is the last remaining
 
 Organism attributes:
-Energy storage - fuel for movement and reproduction
-- pro: longer lifespan - more reproduction
-- con: slower movement, competition with offspring
-Mobility
-- pro: move around
-- con: uses fuel needed for reproduction, shorter lifespan
-Reproduction rate
-- pro: rapid increase in numbers
-- con: uses fuel, competition among offspring, shorter lifespan
-Photosynthesis
-- pro: can generate energy
-- con: slower movement, slower reproduction
-Predation
-- pro: can consume other organisms for energy
-- cons: uses large amounts of fuel
+
+* Energy storage - fuel for movement and reproduction
+    - pro: longer lifespan - more reproduction
+    - con: slower movement, competition with offspring
+* Mobility
+    - pro: move around
+    - con: uses fuel needed for reproduction, shorter lifespan
+* Reproduction rate
+    - pro: rapid increase in numbers
+    - con: uses fuel, competition among offspring, shorter lifespan
+* Photosynthesis
+    - pro: can generate energy
+    - con: slower movement, slower reproduction
+* Predation
+    - pro: can consume other organisms for energy
+    - cons: uses large amounts of fuel
 
 TODO
 ----

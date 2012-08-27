@@ -7,12 +7,12 @@ Written in about 36 hours for [Ludum Dare 24][2], but not finished or submitted.
 What?
 -----
 
-Your organism lives in an environment with several competing organisms
-Each organism survives and grows if it is adapted to the environment
-Over time, the likelihood of a mutation increases
-You can select mutations to add to genome
-Try to choose mutations which will enable your organism to dominate the others
-You win if your organism is the last remaining
+Your organism lives in an environment with several competing organisms.
+Each organism survives and grows if it is adapted to the environment.
+Over time, the likelihood of a mutation increases.
+You can select mutations to add to genome.
+Try to choose mutations which will enable your organism to dominate the others.
+You win if your organism is the last remaining.
 
 Organism attributes:
 
